@@ -1,0 +1,103 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 720px) {
+    .nav{
+        background-image: url("../images/BackgroundMobile.png");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 90% 10%;
+    }
+
+    .social-links{
+        display: none;
+    }
+
+    .main-content{
+        border: none;
+        margin-left: 3%;
+    }
+
+
+    .main-content h1{
+        font-size: 1.9rem;
+        width: 100%;
+    }
+
+    .main-content__buttons{
+        width: 80%;
+    }
+
+    .menu__content{
+        width: 70vw ;
+    }
+
+    .menu__list{
+        font-size: 21px;
+    }
+
+    main{
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+
+    .about__content{
+        display: block;
+        margin: 10% 5% 0 5%;
+    }
+
+    .resume-item{
+        margin-bottom: 5vh;
+    }
+
+    .resume-item__title{
+        width: 75%;
+    }
+
+    .contacts{
+        display: block;
+    }
+
+    .contacts p{
+        font-size: 14px;
+    }
+
+    .contacts__img{
+        display: none;
+    }
+
+    .inputs{
+        display: block;
+        width: 106%;
+    }
+
+    .form__btn_floating{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-device-width: 720px) and (max-device-width: 1024px) {
+    .nav{
+        grid-template-columns: 12% 76% 12%;
+    }
+
+    .main-content h1{
+        width: 75%;
+    }
+
+    .main-content__buttons{
+        width: 40%;
+    }
+
+    main{
+        width: 76%;
+        margin: 0 12% 10% 12%;
+    }
+
+    .menu__content{
+        width: 30vw ;
+    }
+}
